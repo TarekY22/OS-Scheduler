@@ -1,0 +1,18 @@
+
+#At time x allocated y bytes for process z from i to j
+
+At time 3 allocated 30 bytes for process 1 from 0 to 32
+
+At time 6 allocated 30 bytes for process 2 from 32 to 64
+
+At time 7 allocated 200 bytes for process 3 from 256 to 512
+
+At time 9 deallocated 200 bytes for process 3 from 256 to 512
+
+At time 13 deallocated 30 bytes for process 2 from 32 to 64
+
+At time 18 allocated 14 bytes for process 4 from 16 to 32
+
+At time 20 deallocated 30 bytes for process 1 from 0 to 32
+
+At time 40 deallocated 14 bytes for process 4 from 16 to 32
